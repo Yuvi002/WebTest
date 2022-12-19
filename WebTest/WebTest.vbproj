@@ -151,6 +151,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="guestmasterpage.Master" />
+    <Content Include="ThirdFeature.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -250,6 +251,13 @@
     <Compile Include="Site1.Master.vb">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThirdFeature.aspx.designer.vb">
+      <DependentUpon>ThirdFeature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdFeature.aspx.vb">
+      <DependentUpon>ThirdFeature.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
